@@ -3,10 +3,11 @@
 .settings/
 .classpath
 .project
-
+.git
 # Compiled class files #
 ########################
 /bin/
+/target/
 
 # Package Files #
 #################
