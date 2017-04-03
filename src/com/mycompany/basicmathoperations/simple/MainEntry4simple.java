@@ -19,12 +19,13 @@ public class MainEntry4simple {
 		//System.out.println("BEF main of MainEntry4simple with args:" + args);
 		//System.out.println("still main of MainEntry4simple with args:" + Arrays.toString(args));
 		
-		System.out.println("Enter 2 numbers:\nThe multiplication, division, addition and subtraction will be outputted"
-				+ "\n---------------------------------------------------------------------------");
 		// get inputs
 		Scanner scanner = new Scanner(System.in);
 		float number1, number2;
 		float result1, result2, result3, result4;
+		
+		System.out.println("Enter 2 numbers:\nThe multiplication, division, addition and subtraction will be outputted"
+				+ "\n---------------------------------------------------------------------------");
 		// read number 1 and number 2 inputs
 		System.out.println("Enter number 1");
 		number1 = scanner.nextFloat();
